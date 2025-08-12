@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script src="./scripts/script.js" defer></script>
+    <link rel="icon" href="./images/cafe.svg" type="image/x-icon">
+</head>
+<body>
+<header class="hero">
+    <div class="hero-content">
+      <h1>Our Menu</h1>
+      <p>Delicious selections crafted with love.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="category.html">Menu Categories</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+  </header>
+  <main>
+    <div class="filter-buttons">
+      <button onclick="filterProducts('all')">All</button>
+      <button onclick="filterProducts('coffee')">Coffee</button>
+      <button onclick="filterProducts('drinks')">Drinks</button>
+      <button onclick="filterProducts('snacks')">Snacks</button>
+    </div>
+
+    <div class="product-list">
+        <!--<section for coffee -->
+        <div id="coffee" class="product-list">
+            <h2>Coffee</h2>
+            <div class="product-item coffee">
+                <img src="./images/coffee/Americano.png" alt="Americano">
+                <h3>Americano</h3>
+                <p>Rich espresso with hot water.</p>
+                <p>$3.00</p>
+            </div>
+            <div class="product-item coffee">
+                <img src="./images/coffee/Espresso.png" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Strong and bold single shot coffee.</p>
+                <p>$2.50</p>
+            </div>
+            <div class="product-item coffee">
+                <img src="./images/coffee/Latte.png" alt="Latte">
+                <h3>Latte</h3>
+                <p>Espresso with steamed milk and foam.</p>
+                <p>$3.50</p>
+            </div>
+            <div class="product-item coffee">
+                <img src="./images/coffee/Mocha.png" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>Chocolate and espresso with steamed milk.</p>
+                <p>$4.00</p>
+            </div>  
+            <div class="product-item coffee">
+                <img src="./images/coffee/ColdBrew.png" alt="Cold Brew">
+                <h3>Cold Brew</h3>
+                <p>Slow brewed coffee served cold.</p>
+                <p>$3.50</p>
+            </div>
+            <div class="product-item coffee">
+                <img src="./images/coffee/FlatWhite.png" alt="Flat White">
+                <h3>Flat White</h3>
+                <p>Espresso with velvety microfoam.</p>
+                <p>$3.75</p>
+            </div>
+            <div class="product-item coffee">
+                <img src="./images/coffee/Macchiato.png" alt="Macchiato">
+                <h3>Macchiato</h3>
+                <p>Espresso with a dollop of foam.</p>
+                <p>$2.75</p>
+            </div>
+        </div>
+        <!--<section for drinks -->
+        <div id="drinks" class="product-list">
+            <h2>Drinks</h2>
+            <div class="product-item drinks">
+                <img src="./images/drinks/IcedTea.png" alt="Iced Tea">
+                <h3>Iced Tea</h3>
+                <p>Refreshing iced tea with lemon.</p>
+                <p>$2.00</p>    
+            </div>
+            <div class="product-item drinks">
+                <img src="./images/drinks/Lemonade.png" alt="Lemonade">
+                <h3>Lemonade</h3>
+                <p>Freshly squeezed lemonade.</p>
+                <p>$2.00</p>
+            </div>
+            <div class="product-item drinks">
+                <img src="./images/drinks/HotChocolate.png" alt="Hot Chocolate">
+                <h3>Hot Chocolate</h3>
+                <p>Rich hot chocolate with whipped cream.</p>
+                <p>$2.50</p>
+            </div>  
+            <div class="product-item drinks">
+                <img src="./images/drinks/ChaiLatte.png" alt="Chai Latte">
+                <h3>Chai Latte</h3>
+                <p>Spiced tea with steamed milk.</p>
+                <p>$3.00</p>
+            </div>
+            <div class="product-item drinks">
+                <img src="./images/drinks/MatchaLatte.png" alt="Matcha Latte">
+                <h3>Matcha Latte</h3>
+                <p>Green tea latte with steamed milk.</p>
+                <p>$3.50</p>
+            </div>  
+            <div class="product-item drinks">
+                <img src="./images/drinks/FruitSmoothie.png" alt="Fruit Smoothie">
+                <h3>Fruit Smoothie</h3>
+                <p>Blended fruit smoothie with yogurt.</p>
+                <p>$4.00</p>
+            </div>
+            <div class="product-item drinks">
+                <img src="./images/drinks/SparklingWater.png" alt="Sparkling Water">
+                <h3>Sparkling Water</h3>
+                <p>Refreshing sparkling water.</p>
+                <p>$1.50</p>
+            </div>
+        </div>
+        <!--<section for snacks -->
+        <div id="snacks" class="product-list">
+            <h2>Snacks</h2>  
+            <div class="product-item snacks">
+                <img src="./images/snacks/BlueberryMuffin.png" alt="Blueberry Muffin">
+                <h3>Blueberry Muffin</h3>
+                <p>Homemade muffin with fresh blueberries.</p>
+                <p>$2.75</p>
+            </div>
+            <div class="product-item snacks">
+                <img src="./images/snacks/ChocolateCroissant.png" alt="Chocolate Croissant">
+                <h3>Chocolate Croissant</h3>
+                <p>Flaky croissant filled with chocolate.</p>
+                <p>$3.00</p>
+            </div>
+            <div class="product-item snacks">
+                <img src="./images/snacks/GranolaBar.png" alt="Granola Bar">
+                <h3>Granola Bar</h3>
+                <p>Healthy granola bar with nuts and honey.</p>
+                <p>$1.50</p>
+            </div>
+            <div class="product-item snacks">
+                <img src="./images/snacks/FruitSalad.png" alt="Fruit Salad">
+                <h3>Fruit Salad</h3>
+                <p>Seasonal fruit salad with a drizzle of honey.</p>
+                <p>$3.50</p>
+            </div>
+            <div class="product-item snacks">
+                <img src="./images/snacks/Cookies.png" alt="Cookies">
+                <h3>Cookies</h3>
+                <p>Freshly baked cookies with chocolate chips.</p>
+                <p>$1.75</p>
+            </div>
+            <div class="product-item snacks">
+                <img src="./images/snacks/Sandwich.png" alt="Sandwich">
+                <h3>Sandwich</h3>
+                <p>Freshly made sandwich with your choice of fillings.</p>
+                <p>$4.50</p>
+            </div>
+            <div class="product-item snacks">
+                <img src="./images/snacks/Bagel.png" alt="Bagel">
+                <h3>Bagel</h3>
+                <p>Toasted bagel with cream cheese.</p>
+                <p>$2.00</p>
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Local Café | Sip. Savor. Stay a While.</p>
+    <div class="social-icons">
+        <a href="contact.html">Contact</a> |
+        <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>  |
+        <a href="https://www.facebook.com/ranjana.kaushik.9" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>  |
+        <a href="https://www.instagram.com/ranjan_chandan_nivika_nivik/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>  | 
+        <a href="https://x.com/RanjanaKaushik1" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
