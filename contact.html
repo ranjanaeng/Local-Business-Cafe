@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Local Café</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script src="./scripts/script.js" defer></script>
+  <link rel="icon" href="./images/cafe.svg" type="image/x-icon">
+</head>
+<body>
+<header class="hero">
+    <div class="hero-content">
+      <h1>Contact Local Café</h1>
+      <p>Have a question or just want to say hello? We’d love to hear from you.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="category.html">Menu Categories</a>
+        <a href="products.html" class="cta-button">Explore Our Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="contact-section">
+    <section class="contact-details">
+      <h2>Get in Touch</h2>
+      <p><strong>Phone:</strong> <a href="tel:+4407553360117">+44 0755 336 0117</a></p>
+      <p><strong>Email:</strong> <a href="mailto:ranjanaeng@gmail.com">ranjanaeng@gmail.com</a></p>
+      <p><strong>Address:</strong> 16 Chartreuse Close, Rugby, Warwickshire, CV22 5BY</p>
+    </section>
+
+    <!-- Optional Google Map Embed -->
+    <section class="map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.4!2d-1.2661107!3d52.3483451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48773f5140000003%3A0x12ef4975904c454b!2sRugby%20CV22%205BY%2C%20UK!5e0!3m2!1sen!2suk!4v1691234567890!5m2!1sen!2suk" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form id="contactForm" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Local Café | Sip. Savor. Stay a While.</p>
+    <div class="social-icons">
+      <a href="contact.html">Contact</a> |
+      <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>  |
+      <a href="https://www.facebook.com/ranjana.kaushik.9" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>  |
+      <a href="https://www.instagram.com/ranjan_chandan_nivika_nivik/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>  | 
+      <a href="https://x.com/RanjanaKaushik1" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
