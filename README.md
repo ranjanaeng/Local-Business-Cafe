@@ -146,7 +146,7 @@ Start Development server in root of the project direcory npx http-server -p 8080
 
 
 ## 🚀 Deployment
-[Live Site]()
+GItHub Pages website : https://ranjanaeng.github.io/Local-Business-Cafe/
 
 
 ## 🔄 Version Control
