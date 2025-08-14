@@ -1,34 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const buttons = document.querySelectorAll(".filter-buttons button");
-  const cards = document.querySelectorAll(".product-card");
-
-  buttons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const filter = btn.getAttribute("data-filter");
-
-      cards.forEach(card => {
-        if (filter === "all" || card.classList.contains(filter)) {
-          card.style.display = "block";
-        } else {
-          card.style.display = "none";
-        }
-      });
-    });
-  });
-    console.log("Local Cafe website loaded.");
-});
-
-function filterProducts(category) {
-  const products = document.querySelectorAll('.product-item');
-  products.forEach(item => {
-    if (category === 'all' || item.classList.contains(category)) {
-      item.style.display = 'block';
-    } else {
-      item.style.display = 'none';
-    }
-  });
-}
-
 
 // Contact form handler
 document.addEventListener("DOMContentLoaded", function () {
@@ -64,14 +33,37 @@ document.addEventListener("DOMContentLoaded", function () {
   } // Close the if statement
 });
 
+// Product filtering functionality
+// This script will filter products based on the category selected by the user
+document.addEventListener("DOMContentLoaded", function () {
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const productSections = document.querySelectorAll(".product-section");
 
-
-/*
-function toggleMenu() {
-  const menu = document.getElementById('menu');
-  if (menu.style.display === 'block') {
-    menu.style.display = 'none';
-  } else {
-    menu.style.display = 'block';
+  function showCategory(category) {
+    productSections.forEach(section => {
+      if (category === "all") {
+        section.style.display = "block";
+      } else {
+        section.style.display = (section.id === category) ? "block" : "none";
+      }
+    });
   }
-}*/
+
+  // Handle clicks on filter buttons
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const category = button.getAttribute("data-category");
+      showCategory(category);
+    });
+  });
+
+  // detect hash from category.html and filter automatically
+  const hashCategory = window.location.hash.replace("#", "");
+  if (hashCategory) {
+    showCategory(hashCategory); // behaves like clicking the button
+  } else {
+    showCategory("all");
+  }
+
+  console.log("Local Cafe website loaded.");
+});
