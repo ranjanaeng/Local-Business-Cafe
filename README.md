@@ -96,7 +96,7 @@ Landing page with hero section, featured menu items, and quick navigation links.
 
 ### ℹ️ About Page (`about.html`)
 Tells the story of the café, mission, vision, and skills of the owner.  
-![About Page](./images/screenshots/about.webp
+![About Page](./images/screenshots/about.webp)
 
 ---
 
