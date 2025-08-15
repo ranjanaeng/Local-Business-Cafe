@@ -90,31 +90,31 @@ LOCAL-BUSINESS-CAFE/
 
 ### 🏠 Home Page (`index.html`)
 Landing page with hero section, featured menu items, and quick navigation links.  
-![Home Page](./images/screenshots/index.png)
+![Home Page](./images/screenshots/index.webp)
 
 ---
 
 ### ℹ️ About Page (`about.html`)
 Tells the story of the café, mission, vision, and skills of the owner.  
-![About Page](./images/screenshots/about.png)
+![About Page](./images/screenshots/about.webp
 
 ---
 
 ### 📂 Category Page (`category.html`)
 Displays menu categories (Coffee, Drinks, Snacks) with links to their respective products.  
-![Category Page](./images/screenshots/categories.png)
+![Category Page](./images/screenshots/categories.webp)
 
 ---
 
 ### 🛒 Products Page (`products.html`)
 Full menu in a **3-column responsive grid** with filtering options: All | Coffee | Drinks | Snacks.  
-![Products Page](./images/screenshots/products.png)
+![Products Page](./images/screenshots/products.webp)
 
 ---
 
 ### 📬 Contact Page (`contact.html`)
 Contact form with name, email, and message fields, plus business address and optional Google Maps embed.  
-![Contact Page](./images/screenshots/contact.png)
+![Contact Page](./images/screenshots/contact.webp)
 
 ---
 
