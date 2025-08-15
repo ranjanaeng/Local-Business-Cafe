@@ -141,9 +141,10 @@ Start Development server in root of the project direcory npx http-server -p 8080
 
 | Validator           | Use For |  Link                                           |
 |---------------------|---------|-------------------------------------------------|
-| W3C HTML            | HTML    |   https://validator.w3.org/#validate_by_input   |
+| W3C HTML            | HTML    | https://validator.w3.org/#validate_by_input     |
 | W3C CSS             | CSS     | http://jigsaw.w3.org/css-validator/             |
-
+| JS                  |JS       | https://www.minifier.org/                       |
+|                     |         | https://jsvalidator.com                         \
 
 ## 🚀 Deployment
 GItHub Pages website : https://ranjanaeng.github.io/Local-Business-Cafe/

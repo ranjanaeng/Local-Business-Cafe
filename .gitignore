@@ -1,4 +1,8 @@
-# Ignore system files
+# ========================================
+# Local Business Cafe - .gitignore
+# ========================================
+
+# System Files
 .DS_Store
 .DS_Store?
 ._*
@@ -7,19 +11,20 @@
 ehthumbs.db
 Thumbs.db
 
-# Ignore Chrome debug files
+# Chrome Debug Files (from VS Code debugging)
 .chrome-debug/
 
-# Ignore VS Code settings (optional - you can keep .vscode/ if you want)
-# .vscode/
+# VS Code specific files you don't want to share
+.vscode/settings.json
 
-# Ignore node modules if you add any later
-node_modules/
-
-# Ignore temporary files
+# Temporary files
 *.tmp
 *.temp
 *.log
 
-# Ignore zip files
+# Archive files
 *.zip
+
+# Backup files
+*.bak
+*.backup
