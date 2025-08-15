@@ -39,4 +39,4 @@
 |                     | 55   | info    | Trailing slash on void elements has no    | Fixed  |
 |                     |      |         | effect and interacts badly with unquoted  |        |
 |                     |      |         | attribute values.                         |        |
-|---------------------|------|---------|-------------------------------------------|--------|
+|                     |      |         |                                           |        |
